@@ -59,7 +59,7 @@ export class AppComponent implements AfterViewChecked {
     const { currentUser } = this;
     currentUser.sendMessage({
       text: title,
-      roomId: '<your room id>',
+      roomId: '19392858',
       attachment: {
         link: url,
         type: 'image',
@@ -88,7 +88,7 @@ export class AppComponent implements AfterViewChecked {
     const { message, currentUser } = this;
     currentUser.sendMessage({
       text: message,
-      roomId: '<your room id>',
+      roomId: '',
     });
 
     this.message = '';

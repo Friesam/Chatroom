@@ -1,7 +1,7 @@
 <div class="App">
   <aside class="sidebar">
     <section  *ngIf="!currentUser" class="join-chat">
-      <h2>Join Chat</h2>
+      <h2>Join Our Chat</h2>
       <form (ngSubmit)="addUser()">
         <input placeholder="Enter your username" type="text" name="username" [(ngModel)]="username" />
       </form>
