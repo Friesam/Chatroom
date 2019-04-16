@@ -88,7 +88,7 @@ export class AppComponent implements AfterViewChecked {
     const { message, currentUser } = this;
     currentUser.sendMessage({
       text: message,
-      roomId: '',
+      roomId: '19392858',
     });
 
     this.message = '';
